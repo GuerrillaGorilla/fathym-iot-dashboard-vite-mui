@@ -1,4 +1,4 @@
-name: GuerrillaGorilla/fathym-data-dashboard-vite-mui
+name: GuerrillaGorilla/fathym-iot-dashboard-vite-mui
 
 on:
   push:
