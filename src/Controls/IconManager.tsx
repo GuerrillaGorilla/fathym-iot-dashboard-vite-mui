@@ -3,7 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
 import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaGithub, FaCode, FaRegNewspaper, FaHeart } from 'react-icons/fa';
 import { GiSmokingFinger } from "react-icons/gi";
 import { IoWater, IoRocketSharp, IoMagnetSharp } from "react-icons/io5";
-import { LuRotate3D } from "react-icons/lu";
+import { LuRotate3D, LuBrainCircuit } from "react-icons/lu";
 import { MdHandshake, MdOutlineSave, MdGavel, MdPolicy, MdWarning, MdLiveHelp, MdStorm, MdMemory, MdMonitorHeart, MdOutlineBattery0Bar, MdOutlineBattery1Bar, MdOutlineBattery2Bar, MdOutlineBattery3Bar, MdOutlineBattery4Bar, MdOutlineBattery5Bar, MdOutlineBattery6Bar, MdOutlineBatteryFull, MdBolt } from 'react-icons/md'; 
 import { WiCloudy, WiDaySunny, WiHot, WiStrongWind, WiCloudyGusts, WiRain, WiShowers, WiThermometer, WiThermometerExterior, WiWindDeg } from "react-icons/wi";
 import { TbArrowUpCircle, TbGauge, TbArrowUpRightCircle, TbArrowUpLeftCircle, TbArrowRightCircle, TbArrowLeftCircle, TbArrowDownCircle, TbArrowDownRightCircle, TbArrowDownLeftCircle } from "react-icons/tb";
@@ -28,7 +28,7 @@ import React from "react";
 //</IconContext.Provider> 
 
 type IconName = 'fathym' | 'default' | 'warning' | 'rocket' | 'magnet' | 'rotate3d' | 'twitter' | 'facebook' | 'instagram' | 
-                 'youtube' | 'github' | 'storm' | 'memory' | 'code' | 'livehelp' | 
+                 'youtube' | 'github' | 'storm' | 'memory' | 'code' | 'livehelp' | 'braincircuit' |
                  'news' | 'handshake' | 'policy' | 'gavel' | 'water' | 'finger' |
                  'save' | 'sun' | 'sunheat' | 'cloud' | 'wind' | 'gusts' | 'rain' | 'showers' |
                  'emptytemperature' | 'temperature' | 'heartmonitor' | 'heart' | 'gauge' |
@@ -70,7 +70,8 @@ const iconMap: Record<IconName, MappedIcon> = {
   storm: { component: MdStorm }, 
   memory: { component: MdMemory }, 
   code: { component: FaCode }, 
-  livehelp: { component: MdLiveHelp }, 
+  livehelp: { component: MdLiveHelp },
+  braincircuit: { component: LuBrainCircuit },
   news: { component: FaRegNewspaper }, 
   handshake: { component: MdHandshake }, 
   policy: { component: MdPolicy }, 

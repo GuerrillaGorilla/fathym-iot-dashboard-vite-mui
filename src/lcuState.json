@@ -1,9 +1,9 @@
 {
-    "RefreshRate": 30000,
+    "RefreshRate": 5000,
     "IsDark": false,
     "DisplayHero": "none",
     "IoTAPIQuery": "/WarmQuery?",
-    "IoTEmulated": "true",
+    "IoTEmulated": "false",
     "IoTPages": "&page=1&pageSize=100",
     "IoTAPIRoot": "/api/iot",
     "DefaultChartPrefs": [
@@ -653,13 +653,13 @@
         {
             "Name": "1",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#818181"
             ],
             "IconSize": [
                 "3em"
@@ -667,8 +667,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(129, 129, 129)",
+            "BorderColor": "rgb(129, 129, 129)",
             "Options": {
                 "scales": {
                     "y": {
@@ -680,13 +680,13 @@
         {
             "Name": "2",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#7C4B8D"
             ],
             "IconSize": [
                 "3em"
@@ -694,8 +694,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(124, 75, 141)",
+            "BorderColor": "rgb(124, 75, 141)",
             "Options": {
                 "scales": {
                     "y": {
@@ -707,13 +707,13 @@
         {
             "Name": "3",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#36579E"
             ],
             "IconSize": [
                 "3em"
@@ -721,8 +721,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(54, 87, 158)",
+            "BorderColor": "rgb(54, 87, 158)",
             "Options": {
                 "scales": {
                     "y": {
@@ -734,13 +734,13 @@
         {
             "Name": "4",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#317159"
             ],
             "IconSize": [
                 "3em"
@@ -748,8 +748,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(49, 113, 89)",
+            "BorderColor": "rgb(49, 113, 89)",
             "Options": {
                 "scales": {
                     "y": {
@@ -761,13 +761,13 @@
         {
             "Name": "5",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#317159"
             ],
             "IconSize": [
                 "3em"
@@ -775,8 +775,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(221, 178, 13)",
+            "BorderColor": "rgb(221, 178, 13)",
             "Options": {
                 "scales": {
                     "y": {
@@ -788,13 +788,13 @@
         {
             "Name": "6",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#FD5E34"
             ],
             "IconSize": [
                 "3em"
@@ -802,8 +802,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(253, 94, 52)",
+            "BorderColor": "rgb(253, 94, 52)",
             "Options": {
                 "scales": {
                     "y": {
@@ -815,13 +815,13 @@
         {
             "Name": "7",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#E0382D"
             ],
             "IconSize": [
                 "3em"
@@ -829,8 +829,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(224, 56, 45)",
+            "BorderColor": "rgb(224, 56, 45)",
             "Options": {
                 "scales": {
                     "y": {
@@ -842,13 +842,13 @@
         {
             "Name": "8",
             "ChartType": "Line",
-            "DisplayUnits": "Brains",
+            "DisplayUnits": "uV",
             "DisplayCurrent": true,
             "Icons": [
-                "temperature"
+                "braincircuit"
             ],
             "IconColors": [
-                "red"
+                "#A25231"
             ],
             "IconSize": [
                 "3em"
@@ -856,8 +856,8 @@
             "IconValues": [
                 0
             ],
-            "BackgroundColor": "rgb(240, 0, 0)",
-            "BorderColor": "rgb(240, 0, 0)",
+            "BackgroundColor": "rgb(162, 82, 49)",
+            "BorderColor": "rgb(162, 82, 49)",
             "Options": {
                 "scales": {
                     "y": {
