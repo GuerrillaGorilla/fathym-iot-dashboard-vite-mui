@@ -366,7 +366,8 @@ export default class App extends React.Component<AppProperties, AppState> {
               // const date = new Date(Date.parse(payload?.Timestamp));
 
               newDr[payload.DeviceID][srKey].Datasets[0].data.unshift({
-                x: date.toLocaleString(),
+                // x: date.toLocaleString(),
+                x: date.toLocaleDateString()+" "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds()+":"+date.getMilliseconds(),
                 y: payload?.SensorReadings[srKey],
               });
 

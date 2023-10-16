@@ -4,7 +4,7 @@
     "DisplayHero": "none",
     "IoTAPIQuery": "/WarmQuery?",
     "IoTEmulated": "false",
-    "IoTPages": "&page=1&pageSize=100",
+    "IoTPages": "&page=1&pageSize=200",
     "IoTAPIRoot": "/api/iot",
     "DefaultChartPrefs": [
         {
@@ -655,7 +655,7 @@
         {
             "Name": "1",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -683,7 +683,7 @@
         {
             "Name": "2",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -711,7 +711,7 @@
         {
             "Name": "3",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -739,7 +739,7 @@
         {
             "Name": "4",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -767,7 +767,7 @@
         {
             "Name": "5",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -795,7 +795,7 @@
         {
             "Name": "6",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -823,7 +823,7 @@
         {
             "Name": "7",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
@@ -851,7 +851,7 @@
         {
             "Name": "8",
             "ChartType": "Line",
-            "DisplayUnits": "uV",
+            "DisplayUnits": "(µV)",
             "DisplayCurrent": true,
             "ConvertUnits": "roundToHund",
             "Icons": [
